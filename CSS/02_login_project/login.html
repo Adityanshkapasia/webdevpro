@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif; /* It tries to implement fonts from this family 1 by 1 */
+        background-color: #1a1a1a; /* Backgrounf color of this container body */
+        margin: 0; /* Margin and padding  */
+        padding: 0; /* Padding  */
+        height: 100vh; /* 100 percent of the viewport */
+        display: flex; /* Flexbox property that maintains flexibilty for the screen size  */
+        justify-content: center; /* inside elements centered  */
+        align-items: center; /* Centrally allighned elements  */
+      }
+      .card {
+        background-color: wheat; /* Background color of the container */
+        border-radius: 8px; /* Rounder corners  */
+        padding: 30px;
+        width: 250px; /* Max width */
+        /* height: 150px; */
+      }
+      h2 {
+        color: blue; /* Text color */
+        text-align: center; /* text allignment */
+        margin-bottom: 50px; /* Bottom margin */
+      }
+      form {
+        display: flex; /* Flexible box layout */
+        flex-direction: column; /* Makes it such that the inside elements of items are each allighned to 1 colom in this case they are stacked individually in each colom  */
+        gap: 30px; /* Gives a gap of 30 pixels  */
+      }
+      input {
+        margin-bottom: 15px; /* Bottom margin */
+        padding: 10px; /* padding */
+        border-radius: 5px; /* Rounded corners */
+        background-color: #d8d8d8; /* background colors  */
+        border: 1px solid black; /* border styling 1px thick solid type filling and black in color   */
+      }
+      button {
+        background-color: rgb(
+          130,
+          130,
+          239
+        ); /* button color randomly choosen from rgb pallete when hovered */
+        color: #fff; /* text color inside the button  */
+        padding: 10px; /* padding */
+        border-radius: 8px; /* rounder corners */
+      }
+      button:hover {
+        background-color: black; /* Hovered state property */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h2>Login</h2>
+      <form>
+        <input type="email" name="" id="" placeholder="Email" />
+        <input type="password" name="" id="" placeholder="Password" />
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </body>
+</html>
